@@ -74,38 +74,40 @@ Vim has modes--
 
 * These commands do not put you in insert/replace mode.
 
-| key(s)      | what it does                            |
-| ----------- | --------------------------------------- |
-|  r          | replace char at cursor                  |
-| *n*r        | replace *n* chars (with one char)       |
-|  x          | delete char at cursor                   |
-| *n*x        | delete *n* chars                        |
-|             |                                         |
-| *n*d{mov}   | delete from cursor to '{mov} *n* times' |
-|  d$         | e.g. delete to end of line              |
-|  dw         | e.g. delete word                        |
-|  dd         | e.g. delete current line                |
-|             |                                         |
-| *n*y{mov}   | yank (copy) from cursor to {mov} *n*    |
-|  y$         | e.g. yank (copy) to end of line         |
-|  yw         | e.g. yank (copy) current word           |
-|  yy         | e.g. yank (copy) current line           |
-|  y'{mark}   | e.g. yank (copy) to line marked         |
-|             |                                         |
-|  p          | paste copied/deleted text               |
-|  xp         | e.g. swap chars                         |
-|  ddp        | e.g. swap lines                         |
-|             |                                         |
-|  .          | do it again                             |
-|  u          | undo last change                        |
-|  Ctrl-R     | redo last undone                        |
-|             |                                         |
-|  \/{xxx}    | find next chars '{xxx}'                 |
-|  ?{xxx}     | find previous chars '{xxx}'             |
-|  n          | next (go to next match)                 |
-|  N          | previous (go to previous match)         |
-|             |                                         |
-|  J          | join next line to current line          |
+| key(s)      | what it does                             |
+| ----------- | ---------------------------------------- |
+|  r          | replace char at cursor                   |
+| *n*r        | replace *n* chars (with one char)        |
+|  x          | delete char at cursor                    |
+| *n*x        | delete *n* chars                         |
+|             |                                          |
+| *n*d{mov}   | delete from cursor to '{mov} *n* times'  |
+|  d$         | e.g. delete to end of line               |
+|  dw         | e.g. delete word                         |
+|  dd         | e.g. delete current line                 |
+|  dt{char}   | delete from cursor to before {char}      |
+|             |                                          |
+| *n*y{mov}   | yank (copy) from cursor to {mov} *n*     |
+|  y$         | e.g. yank (copy) to end of line          |
+|  yw         | e.g. yank (copy) current word            |
+|  yy         | e.g. yank (copy) current line            |
+|  y'{mark}   | e.g. yank (copy) to line marked          |
+|  yt{char}   | yank (copy) from cursor to before {char} |
+|             |                                          |
+|  p          | paste copied/deleted text                |
+|  xp         | e.g. swap chars                          |
+|  ddp        | e.g. swap lines                          |
+|             |                                          |
+|  .          | do it again                              |
+|  u          | undo last change                         |
+|  Ctrl-R     | redo last undone                         |
+|             |                                          |
+|  \/{xxx}    | find next chars '{xxx}'                  |
+|  ?{xxx}     | find previous chars '{xxx}'              |
+|  n          | next (go to next match)                  |
+|  N          | previous (go to previous match)          |
+|             |                                          |
+|  J          | join next line to current line           |
 
 
 
