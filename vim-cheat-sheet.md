@@ -64,7 +64,7 @@ Vim has modes--
 | *n*s        | substitute *n* chars at cursor (*n*xi)  |
 |  S          | substitute entire line                  |
 |             |                                         |
-| *n*c{mov}   | change from cursor to '{mov} *n* times' |
+|  c*n{mov}*  | change from cursor to '{mov} *n* times' |
 |  c$         | change from cursor to end of line       |
 |  cw         | change from cursor to end of word       |
 |  cc         | change entire line                      |
@@ -81,13 +81,13 @@ Vim has modes--
 |  x          | delete char at cursor                    |
 | *n*x        | delete *n* chars                         |
 |             |                                          |
-| *n*d{mov}   | delete from cursor to '{mov} *n* times'  |
+|  d*n{mov}*  | delete from cursor to '{mov} *n* times'  |
 |  d$         | e.g. delete to end of line               |
 |  dw         | e.g. delete word                         |
 |  dd         | e.g. delete current line                 |
-|  dt{char}   | delete from cursor to before {char}      |
+|  dt*{char}* | delete from cursor to before {char}      |
 |             |                                          |
-| *n*y{mov}   | yank (copy) from cursor to {mov} *n*     |
+|  y*n{mov}*  | yank (copy) from cursor to {mov} *n*     |
 |  y$         | e.g. yank (copy) to end of line          |
 |  yw         | e.g. yank (copy) current word            |
 |  yy         | e.g. yank (copy) current line            |
