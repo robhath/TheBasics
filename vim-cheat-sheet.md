@@ -88,7 +88,7 @@ Vim has modes--
 | **dd**               | delete current line                             |
 | **dt**_c_            | delete from cursor to before character _c_      |
 |                      |                                                 |
-| **y**_n{mov}_        | yank (copy) from cursor to _{mov} n_            |
+| **y**_n{mov}_        | yank (copy) from cursor to '_{mov} n_ times'    |
 | **y$**               | yank (copy) to end of line                      |
 | **yw**               | yank (copy) current word                        |
 | **yy**               | yank (copy) current line                        |
