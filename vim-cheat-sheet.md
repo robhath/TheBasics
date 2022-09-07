@@ -136,7 +136,7 @@ Vim has modes--
 |                               |                                                     |
 | **:cn**                       | go to next error (if error file given at startup)   |
 |                               |                                                     |
-| **:%s/**_{f}_**/**_{r}_**/g** | find {f} and replace it with {r} globally           |
+| **:%s/**_{f}_**/**_{r}_**/g** | find _{f}_ and replace it with _{r}_ globally       |
 | **:%s/foo/bar/g**             | e.g. replace every 'foo' with 'bar'                 |
 |                               |                                                     |
 | `ctrl-G`                      | show current file name, size, position              |
