@@ -1,12 +1,7 @@
-|------------------------|------------|----------|----------|
-| Header row, column 1   | Header 2   | Header 3 | Header 4 |
-| (header rows optional) |            |          |          |
-|========================|============|==========|==========|
-| body row 1, column 1   | column 2   | column 3 | column 4 |
-|------------------------|------------|----------|----------|
-| body row 2             | ...        | ...      |          |
-| with a new paragraph   |            |          |          |
-|------------------------|------------|----------|----------|
+|Header1 |Header2  | Header3|
+--- | --- | ---|
+|data1|data2|data3|
+|data11|data12|data13|
 
 * This is a bulleted list.
 * It has two items, 
