@@ -361,8 +361,8 @@ int main( void )
 
 Executing the example produces the output shown in Figure 10.
 
-![figure 10](/image6.jpg "figure 10")
-<img src="image6.jpg" style="width:4.86528in;height:2.41111in" alt="temp" />
+![figure 10](/image6.jpg "<br/>figure 10")
+
 <span id="_Ref210994147" class="anchor"></span>*Figure 10. The output produced when executing Example 1<sup>4</sup>*
 
 *(4): The screen shot shows each task printing out its message exactly
